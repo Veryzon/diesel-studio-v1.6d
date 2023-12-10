@@ -11,6 +11,10 @@ Each sound source is related to a wave file and can be manipulated in the 3D env
 
 All parameters for achieving Positional Audio are included, i.e. volume, distance attenuation, source radiation and pitch.  The playback system of Diesel Studio contains both headphone and loudspeaker playback
 
+Diesel Power and Diesel Studio are © 2001-2004 AM:3D A/S, DENMARK. All Rights Reserved.
+
+https://sigmaco.org/diesel-power
+
 ## Archived and preserved by SIGMA
 
 This software was taken as part of the history of computer games and is now archived and being preserved by the cybercultist museum of the Federação SIGMA.
