@@ -1,0 +1,13 @@
+a:hover {  color: #AD0105; text-decoration: underline}
+body {  background-color: #DEDEDE}
+.lille_fed {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+a {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #AD0105; text-decoration: none}
+.billedtext {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #333333}
+.lille_fedgraa { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold ; color: #999999}
+.lilleheadSort { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #000000; line-height: 24px}
+td 	{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 18px }
+p 	{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 18px }
+body 	{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 18px }
+.less { line-height: 9px}
+.lilleheader { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #999999; line-height: 24px }
+.mellemrubrik { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #000000; line-height: 24px }
