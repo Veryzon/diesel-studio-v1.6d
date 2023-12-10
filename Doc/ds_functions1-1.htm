@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Diesel Studio User's Guide</title>
+<link rel="stylesheet" href="grey.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" background="bagr5.gif">
+<a name="up"></a> 
+<table width="600" border="0" cellspacing="0" cellpadding="10" align="center" height="98%">
+  <tr>
+    <td valign="top" nowrap> 
+      <p><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="ds_logo_rpg.gif" alt="Illustration: AM3D Diesel Studio Logo" width="333" height="65"><br>
+      </p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="6">
+        <tr>
+          <td valign="top"> 
+            <table border="0" cellspacing="3" cellpadding="0" width="180">
+              <tr> 
+                <td align="right" class="lilleheader">user's guide</td>
+                <td bgcolor="#AD0105" rowspan="2"></td>
+              </tr>
+              <tr> 
+                <td align="right" > 
+                  <p>&nbsp;</p>
+                  <a href="users_guide_intro.htm">Intro</a> 
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td nowrap><a href="ds_functions1.htm"><u>Diesel Studio 
+                        Functions</u></a><br>
+                        <a href="ds_functions1.htm">&middot; <u>Editor Window</u></a><br>
+                        &nbsp;&nbsp;&nbsp;<a href="ds_functions1-1.htm">&middot; 
+                        <u>Object Editor</u></a><br>
+                        &nbsp;&nbsp;&nbsp;<a href="ds_functions1-2.htm">&middot; 
+                        Object Properties</a><br>
+                        &nbsp;&nbsp;&nbsp;<a href="ds_functions1-3.htm">&middot; 
+                        Display Edit</a><br>
+                        &nbsp;&nbsp;&nbsp;<a href="ds_functions1-4.htm">&middot; 
+                        Scene Info</a><br>
+                        <a href="ds_functions2.htm">&middot; View Windows</a><br>
+                        <a href="ds_functions3.htm">&middot; Toolbar</a><br>
+                        <a href="getting_started4.htm">&middot; The Menu</a></td>
+                    </tr>
+                  </table>
+                  <a href="getting_started1.htm">Getting Started</a><br>
+                  <a href="ds_functions1.htm"> </a><a href="advanced_use7.htm">Advanced 
+                  Use</a><br>
+                  <a href="sample_scenes.htm">Sample Scenes</a> 
+                  <p><a href="http://www.am3d.com" target="_blank">www.am3d.com</a><br>
+                  </p>
+                </td>
+              </tr>
+            </table>
+            
+          </td>
+          <td valign="top"> 
+            <table border="0" cellspacing="3" cellpadding="0" width="100%">
+              <tr> 
+                <td class="lilleheadSort" > editor window - object editor</td>
+              </tr>
+              <tr> 
+                <td valign="top"> 
+                  <p>&nbsp;</p>
+                  <p><span lang="en-us"><b>The object editor is used to create new objects and delete 
+                    objects in the acoustic environment.</b> All the created objects 
+                    are listed in a drop down list. The object selected in the 
+                    drop down list is the object activated for the edit control.&nbsp;</span></p>
+                  <p> <span lang="en-us">In the object editor the path type for each object is selected. 
+                    Two path types are available; Line Path and Circle Path. Editing 
+                    of the paths is carried out in the edit control.&nbsp;</span></p>
+                  <p><span lang="en-us">NOTE: A high number sound sources can be activated in Diesel 
+                    Studio. Note that a large number of sound sources may lead 
+                    to an insufficient update of the Graphical Presentation of 
+                    the sound sources.&nbsp;In this case please minimize the program 
+                    window before listening.&nbsp;</span></p>
+                  <p><span lang="en-us"><b>Object edit&nbsp;</b><br>
+                    The name of the selected object is accentuated in the text 
+                    box.</span></p>
+                  <p><b>Set Path Type&nbsp;</b><br>
+                    In Diesel Studio you can choose between two path types&nbsp;</p>
+                  <ul>
+                    <li>Line Path - The choice of line path activates the tab 
+                      under Edit control&nbsp;</li>
+                    <li>Circle Path - The choice of circle path activates the 
+                      tab under Edit control&nbsp;</li>
+                  </ul>
+                  <p> <b>New Source</b><br>
+                    In New Source you will be able to create a new sound source 
+                    with start position and orientation. A wav file is associated 
+                    to each sound source. A sound source is always set to a default 
+                    wav file. It is possible to change the wav file by clicking 
+                    the "Select file" button. Choose a sound file by browsing
+                    in the library in which the required sound file is placed.
+                    It is not possible to change the wav file after the sound source
+                    has been created.
+                  <p> A graphical 3D model (in 3ds format) can be associated with each sound source.
+                  If the size and/or centering of the model isn't suitable, then the auto
+                  scale and/or auto center options can be selected.
+                  If no 3D model is selected, then the default model (simple box)
+                  will be used.
+                  <p> The name of the object can be changed by typing the name 
+                    in the "Object Name" edit box and by clicking the "OK" button. 
+                    The sound source is created with the selected settings.
+                  <p><b>Delete Object&nbsp;</b><br>
+                    Delete Object to delete a sound source. When the "Delete Object" 
+                    button is pressed a dialogue appears to ensure that the selected 
+                    object is, in fact, to be deleted.</p>
+                  <p><b>Head Tracker&nbsp;</b><br>
+                    Pressing the "Head Tracker" button will bring up a dialogue that
+                    allows to assign a head tracker sensor to the current object. The
+                    data from the head tracker sensor will control the
+                    position and orientation of the object. Additional controls are:</p>
+                  <ul>
+                    <li>Object Pose
+                      <ul>
+                        <li>Absolute - Sensor data is used directly</li>
+                        <li>Relative - Sensor data is added to the Line Path or Circle Path of the object</li>
+                      </ul>
+                    </li>
+                    <li>Calibrate Position - Resets the position of the selected sensor to 0,0,0&nbsp;</li>
+                    <li>Calibrate Orientation - Resets the orientation of the selected sensor to 0,0,0&nbsp;</li>
+                  </ul>
+                  Tracker sensors belong to tracker devices (one tracker device can have several sensors), and each
+                  device can be controlled by the following buttons:
+                  <ul>
+                    <li>Start Device - The device starts receiving position and orientation of each of its sensors&nbsp;</li>
+                    <li>Stop Device - The device stops receiving&nbsp;</li>
+                    <li>Device Config - Configuration of the devices, with the following controls:
+                      <ul>
+                        <li>Add - Add a new instance of a device. The devices are made as plug-in DLLs, and
+                        are located under the \TrackerDlls\ directory. Contact <a href="tech@am3d.com">tech@am3d.com</a> for information about
+                        additional tracker devices.</li>
+                        <li>Remove - Removes the selected device instance.</li>
+						<li>The plug-in module specific configuration can be adjusted in the "Device Configuration" group box.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p>&nbsp;</p>
+                  <p class="text"></p>
+                  <p class="text"><a href="#top"><img src="up.gif" width="11" height="6" border="0"></a></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" height="40">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tr> 
+          <td> 
+            <div align="center"><a href="users_guide_intro.htm">Intro</a> | <a href="ds_functions1.htm"><u>Diesel 
+              Studio Functions</u></a> | <a href="getting_started1.htm">Getting 
+              Started</a> | <a href="advanced_use7.htm">Advanced Use</a> | <a href="sample_scenes.htm">Sample 
+              Scenes</a><br>
+              <a href="http://www.am3d.com" target="_blank">www.am3d.com</a></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

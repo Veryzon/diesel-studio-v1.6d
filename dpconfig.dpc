@@ -1,0 +1,1 @@
+<HeadphoneType index="0"> <LoudspeakerType index="0"> <LoudspeakerAngle angle="60"> <ActivePlaybackDevice device="1"> <4LoudspeakerSetup setup_mode="1"> <ForceMultichannel mode="0"> <Force2channel mode="0"> <PostFilterParameters PostGainIndB="0" PreGainIndB="0" LoFreqGainIndB="0" MidFreqGainIndB="0" HiFreqGainIndB="0"> <MaxRenderLatency ms="100"> 

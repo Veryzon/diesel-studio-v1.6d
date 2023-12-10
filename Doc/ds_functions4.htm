@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Diesel Studio User's Guide</title>
+<link rel="stylesheet" href="grey.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" background="bagr5.gif">
+<a name="up"></a> 
+<table width="600" border="0" cellspacing="0" cellpadding="10" align="center" height="98%">
+  <tr>
+    <td valign="top" nowrap> 
+      <p><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="ds_logo_rpg.gif" alt="Illustration: AM3D Diesel Studio Logo" width="333" height="65"><br>
+      </p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="6">
+        <tr>
+          <td valign="top"> 
+            <table border="0" cellspacing="3" cellpadding="0" width="180">
+              <tr> 
+                <td align="right" class="lilleheader">user's guide</td>
+                <td bgcolor="#AD0105" rowspan="2"></td>
+              </tr>
+              <tr> 
+                <td align="right" > 
+                  <p>&nbsp;</p>
+                  <a href="users_guide_intro.htm">Intro</a> 
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td nowrap><a href="ds_functions1.htm"><u>Diesel Studio 
+                        Functions</u></a><br>
+                        <a href="ds_functions1.htm">&middot; Editor Window</a><br>
+                        <a href="ds_functions2.htm">&middot; View Windows</a><br>
+                        <a href="ds_functions3.htm">&middot; Toolbar</a><br>
+                        <a href="ds_functions4.htm">&middot; <u>The Menu</u></a></td>
+                    </tr>
+                  </table>
+                  <a href="getting_started1.htm">Getting Started</a><br>
+                  <a href="ds_functions1.htm"> </a><a href="advanced_use7.htm">Advanced 
+                  Use</a><br>
+                  <a href="sample_scenes.htm">Sample Scenes</a> 
+                  <p><a href="http://www.am3d.com" target="_blank">www.am3d.com</a><br>
+                  </p>
+                </td>
+              </tr>
+            </table>
+            
+          </td>
+          <td valign="top"> 
+            <table border="0" cellspacing="3" cellpadding="0" width="100%">
+              <tr> 
+                <td class="lilleheadSort" > functions - editor window</td>
+              </tr>
+              <tr> 
+                <td valign="top"> 
+                  <p>&nbsp;</p>
+                  <p><b>The menu contains:&nbsp;</b></p>
+                  <p><a href="#1">File</a><br>
+                    <a href="#2">Settings</a><br>
+                    <a href="#3">View</a><b>&nbsp;</b><br>
+                    <a href="#4">Window</a><b>&nbsp;</b><br>
+                    <b><a href="#5">Help</a>&nbsp;</b><br>
+                  </p>
+                  <p>&nbsp;</p>
+                  <p><a name="1"></a><span class="mellemrubrik">File</span></p>
+                  <p>Here it is possible to create a new document, load a document, 
+                    and save the document from the menu. The file format used 
+                    has the extension *.dss and is stored in a binary windows 
+                    format.</p>
+                  <p><b><a name="2"></a></b><span class="mellemrubrik">Settings</span></p>
+                  <p>Contains the playback settings<b>&nbsp;</b></p>
+                  <p><b>Playback Settings</b><br>
+                    The "Playback Control" dialogue contains the playback settings 
+                    where the system can be set to run with loudspeakers or headphones.&nbsp;</p>
+                  <p>Headphones are set as the default selection. In the "Headphone 
+                    types" list, different types of headphones can be selected 
+                    to improve sound quality.&nbsp;</p>
+                  <p>If loudspeakers are selected you have the option to set the 
+                    "Loudspeaker Angle". Selecting an angle that matches the listening 
+                    situation is essential for the overall 3D effect. By typing 
+                    the two distance parameters in the "Angle Calculator" the 
+                    exact angle can be calculated.</p>
+                  <p><br>
+                    <b> Play Back Device&nbsp;</b></p>
+                  <p><span class="mellemrubrik">Headphones</span><b>&nbsp;</b><br>
+                    When headphone playback is selected a number of settings are 
+                    available, enabling more compatibility between the headphone 
+                    set and the binaural synthesis engine. This is important both 
+                    for positional performance and for achieving natural sound 
+                    reproduction. Of course the nature of the input signal (selected 
+                    wav file) also has a major influence on this. Headphone adaptation 
+                    however, offers the possibility of making all headphones sound 
+                    similar.&nbsp;</p>
+                  <p>If none of the options match the headphones, try each of 
+                    the settings one by one until the 3D positional performance 
+                    matches the best shown in the render view.&nbsp;</p>
+                  <p><b>Headphones Type</b></p>
+                  <ul>
+                    <li><b>Neutral</b>&nbsp;<br>
+                      No headphone adaptation is made.&nbsp;</li>
+                    <li><b>Free Field Calibrated</b>&nbsp;<br>
+                      Use this setting when listening through free-field calibrated 
+                      headphones.<br>
+                      Some studio reference headphones are free-field calibrated, 
+                      so check the manual. However, the standard used in this 
+                      engine may deviate from the factory standards and therefore 
+                      the optimum setting might be "Diffuse Field Calibrated". 
+                      Most cheap headphones can, with advantage, be used with 
+                      this setting as active.&nbsp;</li>
+                    <li><b>Diffuse Field Calibrated&nbsp;</b><br>
+                      Use this setting when listening through a diffuse-field 
+                      calibrated headphone set.<br>
+                      Some studio reference headphones are diffuse-field calibrated, 
+                      so check the manual. Some headphones can also, with advantage, 
+                      be used with this setting as active.&nbsp;</li>
+                    <li><b>Beyerdynamic DT 990&nbsp;</b><br>
+                      A setting made for listening through Beyerdynamic DT 990 
+                      headphones. 
+                  </ul>
+                  <p><span class="mellemrubrik">Loudspeakers&nbsp;</span><br>
+                    When loudspeaker playback is selected a cross-talk cancellation 
+                    algorithm is used in the post-processing. The algorithm assumes 
+                    a symmetrical listening situation where the listener must 
+                    be positioned in the middle between two loudspeakers. The 
+                    purpose of the algorithm is to eliminate sound from the right 
+                    loudspeaker at the left ear and vice versa.&nbsp;</p>
+                  <p>The so called sweet spot, which is the physical area where 
+                    the 3D effect is optimal, is rather small and dependent on 
+                    the distance to loudspeakers. Larger distances reduce the 
+                    sweet spot's sensitivity.&nbsp;</p>
+                  <p>The loudspeakers should be placed at the same height as the 
+                    ears of the listener. If this is not possible it is recommended 
+                    to place the loudspeakers lower and not higher. If the system 
+                    has a sub woofer, it may be necessary to switch this off in 
+                    order to achieve a satisfactory 3D performance.&nbsp;</p>
+                  <p>Place the loudspeakers symmetrically and try to avoid placing 
+                    them next to side walls. They can however be placed next to 
+                    a monitor without influencing the 3D effect. If one speaker 
+                    has to be placed next to a side wall, it is recommended that 
+                    the same is done with the other, in order to avoid a deterioration 
+                    of the 3D effect.&nbsp;</p>
+                  <ul>
+                    <li><b>Loudspeaker Angle</b>&nbsp;<br>
+                      The angle spanned by the two loudspeakers, seen from the 
+                      listener's position.&nbsp;</li>
+                    <li><b>Distance 1</b>&nbsp;<br>
+                      The distance between the loudspeakers&nbsp;</li>
+                    <li><b>Distance 2&nbsp;</b><br>
+                      The angular distance from the loudspeakers to the listening 
+                      position.</li>
+                    <li><b>Angle</b>&nbsp;<br>
+                      Shows the calculated angle.&nbsp;</li>
+                    <li><b>Calculate</b>&nbsp;<br>
+                      Used to calculate the angle to be set in.</li>
+                  </ul>
+                  <p><br>
+                    <a name="3"></a><span class="mellemrubrik">View</span><br>
+                    In this menu it is possible to enable or disable any of the four view
+                    windows, as well as the docking tool windows and toolbar.<br>
+                    Additionally it is possible to save the current window configuration (in an ini file),
+                    so that the currently open windows will be open next time the application is used, also
+                    preserving their docking state (unless the screen resolution changes).
+                    <br>
+                  </p>
+                  <p><br>
+                    <a name="4"></a><span class="mellemrubrik">Window</span><br>
+                    Here it is possible to arrange the windows and to select a window to be active.<br>
+                    <br>
+                  </p>
+                  <p><span class="mellemrubrik"><a name="5"></a>Help</span><b>&nbsp;</b><br>
+                    Access to Diesel Studio User's Guide and Tutorial</p>
+                  <p class="text"></p>
+                  <p class="text"></p>
+                  <p class="text"></p>
+                  <p class="text"></p>
+                  <p class="text"><a href="#top"><br>
+                    <br>
+                    <img src="up.gif" width="11" height="6" border="0"></a></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="bottom" height="40">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+        <tr> 
+          <td> 
+            <div align="center"><a href="users_guide_intro.htm">Intro</a> | <a href="ds_functions1.htm"><u>Diesel 
+              Studio Functions</u></a> | <a href="getting_started1.htm">Getting 
+              Started</a> | <a href="advanced_use7.htm">Advanced Use</a> | <a href="sample_scenes.htm">Sample 
+              Scenes</a><br>
+              <a href="http://www.am3d.com" target="_blank">www.am3d.com</a></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

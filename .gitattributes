@@ -1,0 +1,2 @@
+*.wav filter=lfs diff=lfs merge=lfs -text
+intall/dieselstudio_install_16d_normal.exe filter=lfs diff=lfs merge=lfs -text
